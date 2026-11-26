@@ -10,7 +10,7 @@
 
 ## 简体中文 B 端
 
-项目已有文案规范时优先使用。以下规则以 Ant Design 为参考，适用于管理台、审批、运维和数据处理等企业场景。
+项目已有文案规范时优先使用。以下规则以 Ant Design 为参考，适用于管理台、审批、运维和数据处理等企业场景。需要核对具体用词、语气、标点或组件场景时，按任务查阅文末对应的官方 Markdown。
 
 | 场景 | 写法 | 示例 |
 | --- | --- | --- |
@@ -22,13 +22,14 @@
 | 权限和审批 | 说明受限对象或当前流程状态。按实际权限和流程提供下一步。 | 「待部门负责人审批」，「无权导出报表」配「申请导出权限」 |
 | 危险操作 | 标题点明动作和对象，正文说明影响和能否恢复，主按钮写明将执行的动作。 | 标题「删除这 3 台设备？」正文「删除后，设备记录无法恢复。」按钮「取消」「删除设备」 |
 
-审校时用同一业务对象串读页面标题、表格操作、对话框和结果提示。对照需求、产品实现或已有交互说明核实数值上限、数据影响、权限入口和恢复方式。产品行为还未确认时，先用能确认的事实写文案，并在交付说明中列出待确认项。
+审校时用同一业务对象串读页面标题、表格操作、对话框和结果提示。用户通过按钮或链接进入新页面时，核对操作标签与目标页标题是否使用同一名称。对照需求、产品实现或已有交互说明核实数值上限、数据影响、权限入口和恢复方式。产品行为还未确认时，先用能确认的事实写文案，并在交付说明中列出待确认项。
 
-## 参考资料
+## Ant Design 官方参考
 
-- [Ant Design 企业级设计体系](https://ant.design/docs/spec/introduce-cn/)
-- [Ant Design 文案](https://ant.design/docs/spec/copywriting-cn/)
-- [Ant Design 按钮](https://ant.design/docs/spec/buttons-cn/)
-- [Ant Design 数据录入](https://ant.design/docs/spec/data-entry-cn/)
-- [Ant Design 消息与反馈](https://ant.design/docs/spec/research-message-and-feedback-cn/)
-- [Ant Design 空状态](https://ant.design/docs/spec/research-empty-cn/)
+- [文案 Markdown](https://ant.design/docs/spec/copywriting-cn.md) — 用词、语气、标点和数字
+- [按钮 Markdown](https://ant.design/docs/spec/buttons-cn.md) — 操作标签和确认按钮
+- [数据录入 Markdown](https://ant.design/docs/spec/data-entry-cn.md) — 字段提示和上传要求
+- [消息与反馈 Markdown](https://ant.design/docs/spec/research-message-and-feedback-cn.md) — 成功、失败和后台任务反馈
+- [空状态 Markdown](https://ant.design/docs/spec/research-empty-cn.md) — 无数据、异常和引导操作
+- [企业级设计体系 Markdown](https://ant.design/docs/spec/introduce-cn.md) — 设计规范概览
+- [Ant Design 文档索引 llms.txt](https://ant.design/llms.txt) — 查找其他模式或组件的文档
