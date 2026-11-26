@@ -1,6 +1,6 @@
 ---
 name: ux-writing
-description: Create user-centered, accessible interface copy (microcopy) for digital products including buttons, labels, error messages, notifications, forms, onboarding, empty states, success messages, and help text. Use when writing or editing any text that appears in apps, websites, or software interfaces, designing conversational flows, establishing voice and tone guidelines, auditing product content for consistency and usability, reviewing UI strings, or improving existing interface copy. Applies UX writing best practices based on four quality standards — purposeful, concise, conversational, and clear. Includes accessibility guidelines, research-backed benchmarks (sentence length, comprehension rates, reading levels), expanded error patterns, tone adaptation frameworks, and comprehensive reference materials.
+description: Create user-centered, accessible interface copy (microcopy) for digital products including buttons, labels, error messages, notifications, forms, onboarding, empty states, success messages, and help text. Use when writing or editing any text that appears in apps, websites, or software interfaces, designing conversational flows, establishing voice and tone guidelines, auditing product content for consistency and usability, reviewing UI strings, or improving existing interface copy. Applies UX writing best practices based on four quality standards — purposeful, concise, conversational, and clear. Supports Chinese UI copy (中文界面文案、后台文案、按钮、表单、报错提示、空状态), with Ant Design guidance for enterprise products.
 ---
 
 # UX Writing
@@ -20,6 +20,12 @@ Use this skill when:
 - Designing conversational flows or onboarding experiences
 - Establishing voice and tone for a product
 - Auditing product content for consistency and usability
+
+## Choose the UI Language
+
+Use the explicitly requested UI locale, then the target surface’s locale in project guidelines, i18n files, or neighboring strings. The language of the request is a fallback when the target locale is unspecified. In multilingual projects, follow the conventions of each requested locale and preserve message keys, placeholders, and ICU syntax.
+
+For Chinese UI copy, read [Chinese UI copy](references/chinese-ui-copy.md) before drafting or auditing. Apply the four quality standards below with the Chinese reference’s wording and readability checks. Project terminology and locale conventions take precedence. The English examples, grammar rules, and numerical benchmarks in this skill and its supporting materials are guidance for English copy.
 
 ## Core UX Writing Principles
 
@@ -406,6 +412,7 @@ Use these research-backed metrics to create effective UX text.
 ## Resources
 
 This skill includes:
+- **[Chinese UI copy](references/chinese-ui-copy.md)** — Localization guidance and Simplified Chinese enterprise UI patterns
 - **references/accessibility-guidelines.md**: Comprehensive guide to writing accessible UX text for all users
 - **references/voice-chart-template.md**: Template for creating a product voice chart
 - **references/content-usability-checklist.md**: Comprehensive checklist for evaluating UX text quality

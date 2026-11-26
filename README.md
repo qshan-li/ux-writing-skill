@@ -7,6 +7,12 @@
 
 An [agent skill](https://agentskills.io/) that enables Claude, Codex, and Cursor to write and edit user-centered interface copy (UX text/microcopy) for digital products. This skill transforms AI assistants into specialized UX writing tools that apply consistent standards, patterns, and voice across your product.
 
+## 中文界面文案
+
+本 fork 支持撰写和审校中文界面文案。技能按目标界面的语言工作，优先沿用项目词表和文案规范。简体中文后台、管理台和企业工具可以参考 Ant Design 的文案、按钮与反馈规范。示例和审校要点见[中文界面文案指南](references/chinese-ui-copy.md)。
+
+安装后可试用 `$ux-writing 帮我审校中文后台的批量导入提示，区分全部成功、部分成功和全部失败`。
+
 ## The Problem
 
 Design systems solve visual consistency, but content quality still depends on individual writers. Every error message, button label, and empty state requires manual review to ensure it's clear, concise, conversational, and purposeful. This doesn't scale.
@@ -71,7 +77,7 @@ This skill works with **Claude Desktop**, **Claude Code**, **Codex** (CLI and ID
 Run this command in your terminal:
 
 ```bash
-npx skills add content-designer/ux-writing-skill
+npx skills add qshan-li/ux-writing-skill
 ```
 
 The CLI downloads the skill and configures it automatically for your agent. Restart your agent or IDE after installation.
@@ -89,7 +95,7 @@ Your agent will apply UX writing best practices and produce a clear, empathetic 
 Want your whole team to use this skill automatically? Run the CLI from your project root:
 
 ```bash
-npx skills add content-designer/ux-writing-skill
+npx skills add qshan-li/ux-writing-skill
 ```
 
 Then commit the installed skill files to your repository. Teammates get the skill when they pull the code.
