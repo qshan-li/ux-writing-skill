@@ -10,7 +10,7 @@
 
 ## 简体中文 B 端
 
-项目已有文案规范时优先使用。以下规则以 Ant Design 为参考，适用于管理台、审批、运维和数据处理等企业场景。需要核对具体用词、语气、标点或组件场景时，按任务查阅文末对应的官方 Markdown。
+项目已有文案规范时优先使用。以下规则以 Ant Design 为参考，适用于管理台、审批、运维和数据处理等企业场景。任务涉及 Ant Design 规范或具体组件时，按文末指引查阅官方 Markdown。
 
 | 场景 | 写法 | 示例 |
 | --- | --- | --- |
@@ -24,12 +24,17 @@
 
 审校时用同一业务对象串读页面标题、表格操作、对话框和结果提示。用户通过按钮或链接进入新页面时，核对操作标签与目标页标题是否使用同一名称。对照需求、产品实现或已有交互说明核实数值上限、数据影响、权限入口和恢复方式。产品行为还未确认时，先用能确认的事实写文案，并在交付说明中列出待确认项。
 
-## Ant Design 官方参考
+## 查阅 Ant Design 官方文档
 
-- [文案 Markdown](https://ant.design/docs/spec/copywriting-cn.md) — 用词、语气、标点和数字
-- [按钮 Markdown](https://ant.design/docs/spec/buttons-cn.md) — 操作标签和确认按钮
-- [数据录入 Markdown](https://ant.design/docs/spec/data-entry-cn.md) — 字段提示和上传要求
-- [消息与反馈 Markdown](https://ant.design/docs/spec/research-message-and-feedback-cn.md) — 成功、失败和后台任务反馈
-- [空状态 Markdown](https://ant.design/docs/spec/research-empty-cn.md) — 无数据、异常和引导操作
-- [企业级设计体系 Markdown](https://ant.design/docs/spec/introduce-cn.md) — 设计规范概览
-- [Ant Design 文档索引 llms.txt](https://ant.design/llms.txt) — 查找其他模式或组件的文档
+按任务选择文档。审校用词、语气或标点时，先读[文案规范](https://ant.design/docs/spec/copywriting-cn.md)。涉及具体页面、交互或组件时，打开 [Ant Design 官方索引](https://ant.design/llms.txt)，在 `Docs (CN)` 中查找 `/docs/spec/` 下的中文设计规范，在 `Component Docs (CN)` 中查找对应组件的使用说明。审校图标按钮或辅助技术相关文案时，也可查 `Semantic (CN)` 中相应组件的语义说明。
+
+下表是常见查阅入口。跨页面审计需要按关键词检索多篇规范时，可在 [中文文档合集](https://ant.design/llms-full-cn.txt) 中定位相关章节。
+
+| 任务 | 官方 Markdown |
+| --- | --- |
+| 命名操作、撰写确认按钮 | [按钮](https://ant.design/docs/spec/buttons-cn.md) |
+| 审校字段、校验和上传提示 | [表单](https://ant.design/docs/spec/research-form-cn.md)、[数据录入](https://ant.design/docs/spec/data-entry-cn.md) |
+| 审校页面标题、菜单和路径 | [导航](https://ant.design/docs/spec/research-navigation-cn.md)、[详情页](https://ant.design/docs/spec/detail-page-cn.md) |
+| 审校列表操作、日期、金额和单位 | [数据列表](https://ant.design/docs/spec/data-list-cn.md)、[数据格式](https://ant.design/docs/spec/data-format-cn.md) |
+| 区分空状态、错误页和操作结果 | [空状态](https://ant.design/docs/spec/research-empty-cn.md)、[异常](https://ant.design/docs/spec/research-exception-cn.md)、[结果](https://ant.design/docs/spec/research-result-cn.md) |
+| 撰写进度、完成或失败提示 | [反馈](https://ant.design/docs/spec/feedback-cn.md)、[消息与反馈](https://ant.design/docs/spec/research-message-and-feedback-cn.md) |
