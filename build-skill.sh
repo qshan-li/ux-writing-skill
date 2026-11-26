@@ -18,7 +18,6 @@ rm -f "$OUTPUT_DIR/$ZIP_NAME"
 # Create ZIP with only skill-relevant files
 zip -r "$OUTPUT_DIR/$ZIP_NAME" \
   SKILL.md \
-  docs/ \
   examples/ \
   references/ \
   templates/ \

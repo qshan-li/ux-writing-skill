@@ -421,4 +421,3 @@ This skill includes:
 - **templates/error-message-template.md**: Fillable template for writing effective error messages
 - **templates/empty-state-template.md**: Guide for creating helpful empty states
 - **templates/onboarding-flow-template.md**: Framework for designing clear onboarding experiences
-- **docs/figma-integration.md**: Guide for using this skill with Figma MCP (Claude Code, Codex, and Cursor)

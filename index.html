@@ -332,82 +332,6 @@
             text-align: left;
         }
 
-        /* Integrations */
-        .integrations {
-            padding: 160px 0;
-            border-top: 1px solid var(--border);
-        }
-
-        .integrations .section-title {
-            margin-bottom: 40px;
-        }
-
-        .integrations .intro {
-            text-align: center;
-            color: var(--ink-light);
-            font-size: 20px;
-            margin-bottom: 80px;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.7;
-        }
-
-        .integration-card {
-            background: rgba(212, 165, 116, 0.06);
-            border: 1px solid var(--border);
-            padding: 80px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .integration-card h4 {
-            font-size: 20px;
-            font-weight: 400;
-            margin-bottom: 32px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--ink-muted);
-        }
-
-        .integration-card code {
-            background: var(--ink);
-            color: var(--accent);
-            padding: 32px;
-            display: block;
-            margin: 32px 0;
-            font-size: 15px;
-            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
-            overflow-x: auto;
-            line-height: 1.6;
-            border: 1px solid var(--ink);
-        }
-
-        .integration-card .help-text {
-            margin-top: 32px;
-            color: var(--ink-light);
-            font-size: 17px;
-            line-height: 1.7;
-        }
-
-        .integration-card .guide-link {
-            margin-top: 32px;
-            display: inline-block;
-        }
-
-        .integration-card .guide-link a {
-            color: var(--ink);
-            text-decoration: none;
-            font-weight: 400;
-            border-bottom: 1px solid var(--accent);
-            padding-bottom: 2px;
-            transition: border-color 0.3s ease;
-        }
-
-        .integration-card .guide-link a:hover {
-            border-color: var(--ink);
-        }
-
         /* Quick Start */
         .quickstart {
             padding: 160px 0;
@@ -579,14 +503,6 @@
 
             .feature-grid {
                 gap: 60px;
-            }
-
-            .integrations {
-                padding: 100px 0;
-            }
-
-            .integration-card {
-                padding: 40px;
             }
 
             .quickstart {
@@ -842,7 +758,6 @@
             <h1>UX WRITING SKILL</h1>
             <nav>
                 <a href="https://github.com/content-designer/ux-writing-skill">Repository</a>
-                <a href="https://github.com/content-designer/ux-writing-skill/blob/main/docs/figma-integration.md">Figma</a>
                 <a href="https://github.com/content-designer/ux-writing-skill#usage-examples">Documentation</a>
                 <button class="video-trigger" onclick="toggleVideo()">▷</button>
                 <button class="terminal-trigger" onclick="toggleTerminal()">></button>
@@ -856,7 +771,7 @@
                 <h2>Write better<br>interface copy</h2>
                 <p class="subtitle">A comprehensive agent skill for Claude, Codex, and Cursor that helps content designers and product teams create accessible, user-centered text following research-backed best practices.</p>
                 <div class="cta-buttons">
-                    <a href="https://github.com/content-designer/ux-writing-skill/raw/main/dist/ux-writing-skill.zip" class="btn btn-primary">Download skill</a>
+                    <a href="https://github.com/qshan-li/ux-writing-skill/raw/main/dist/ux-writing-skill.zip" class="btn btn-primary">Download skill</a>
                     <a href="https://github.com/content-designer/ux-writing-skill" class="btn btn-secondary">View on GitHub</a>
                 </div>
             </div>
@@ -953,22 +868,6 @@
                             <li>Onboarding flows</li>
                             <li>Voice charts</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="integrations">
-            <div class="container">
-                <h3 class="section-title">Figma integration</h3>
-                <p class="intro">Review and improve UX copy directly from your Figma designs. Works with Claude Code, Codex, and Cursor. Perfect for content designers and product teams.</p>
-
-                <div class="feature-grid" style="margin-bottom: 0;">
-                    <div class="integration-card" style="background: rgba(186, 205, 217, 0.08); border: 1px solid var(--border); padding: 48px;">
-                        <h4>Any agent + Figma MCP</h4>
-                        <code>npx skills add content-designer/ux-writing-skill</code>
-                        <p class="help-text">Share any Figma frame link with your agent to get instant UX writing feedback, accessibility audits, and specific improvements. Setup instructions available for Claude Code, Codex, and Cursor.</p>
-                        <p class="guide-link"><a href="https://github.com/content-designer/ux-writing-skill/blob/main/docs/figma-integration.md">Read the Figma setup guide →</a></p>
                     </div>
                 </div>
             </div>

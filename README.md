@@ -100,18 +100,6 @@ npx skills add qshan-li/ux-writing-skill
 
 Then commit the installed skill files to your repository. Teammates get the skill when they pull the code.
 
-## Figma Integration
-
-**Review and improve UX copy directly from your Figma designs!**
-
-Connect this skill to Figma through your agent to analyze mockups, audit copy, and suggest improvements based on UX writing best practices. Perfect for:
-- Content designers reviewing flows before launch
-- Product teams iterating on copy in designs
-- Design QA and accessibility audits
-- Cross-platform consistency checks
-
-**📖 Setup guide for all agents:** [docs/figma-integration.md](docs/figma-integration.md)
-
 ## Usage Examples
 
 ### Basic Usage
@@ -210,7 +198,7 @@ If you're contributing or want to build the skill ZIP locally:
 ./build-skill.sh
 ```
 
-This creates `dist/ux-writing-skill.zip` containing only the skill files (`SKILL.md`, `docs/`, `examples/`, `references/`, `templates/`).
+This creates `dist/ux-writing-skill.zip` containing only the skill files (`SKILL.md`, `examples/`, `references/`, `templates/`).
 
 The build script excludes repository files like `README.md`, `CONTRIBUTING.md`, `index.html`, and the demo video — these live on GitHub but aren't needed in the skill package.
 

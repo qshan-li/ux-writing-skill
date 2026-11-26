@@ -161,7 +161,6 @@ For each step in your onboarding flow, verify:
 
 Examples:
 - "Welcome to Notion. Create beautiful docs, wikis, and projects."
-- "Welcome to Figma. Design, prototype, and collaborate in real time."
 
 ### Permission Request
 **Pattern**: "Enable [permission] to [specific benefit]"

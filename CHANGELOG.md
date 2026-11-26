@@ -10,17 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - **Cursor Support**: Full compatibility with Cursor; added to supported agents in README, SKILL.md, and all documentation
 - **Skills CLI Installation**: Replaced per-tool install instructions with a single universal command (`npx skills add content-designer/ux-writing-skill`)
-- **Unified Figma Integration Guide**: New `docs/figma-integration.md` covering Claude, Codex, and Cursor in one place
 
 ### Changed
 - Updated README title and intro to reference Claude, Codex, and Cursor
 - Simplified Installation section — single CLI command replaces three separate step-by-step guides
-- Simplified Figma Integration section in README to link to the consolidated guide
 - Made usage examples and explanations tool-agnostic throughout README
-
-### Removed
-- `docs/claude-figma-integration.md` (content merged into `docs/figma-integration.md`)
-- `docs/codex-figma-integration.md` (content merged into `docs/figma-integration.md`)
 
 ---
 
@@ -29,11 +23,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - **OpenAI Codex Support**: Full compatibility with Codex CLI and IDE extensions
 - **Codex Installation Guide**: Step-by-step instructions for Codex users
-- **Codex Figma Integration**: New guide at `docs/codex-figma-integration.md`
 - **Multi-Platform Documentation**: Updated README and website for Claude + Codex
 
 ### Changed
-- Renamed `docs/figma-integration.md` to `docs/claude-figma-integration.md` for clarity
 - Updated website to reflect multi-platform support
 - Various terminology fixes (Codex = CLI/IDE, not ChatGPT)
 
@@ -64,7 +56,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.2.0] - 2025-11-10
 
 ### Added
-- **Figma Integration Guide**: New guide at `docs/figma-integration.md` for reviewing UX copy directly from Figma designs
 - **Improved Installation Instructions**: Clearer steps for non-technical users
 
 ---
