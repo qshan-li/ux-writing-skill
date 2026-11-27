@@ -64,6 +64,12 @@ Every piece of UX text should be:
 - Use second-person ("you") language
 - Match user's language and mental models
 
+**Copy Restraint & Layout**
+- Omit helper text, subtitles, and descriptions when layout, visual hierarchy, icons, or interaction states already communicate the meaning
+- Avoid repeating what buttons, headings, or controls already make clear; add copy only for non-obvious constraints, consequences, or recovery steps
+- Let layout, icons, hierarchy, and interaction guide users (keep accessible names on icon-only controls)
+- Reserve interface space for core content and actions instead of explanatory prose
+
 ## UX Text Patterns
 
 Apply these common patterns for interface elements.
@@ -154,7 +160,7 @@ Apply these common patterns for interface elements.
 - **Labels**: Clear noun phrases describing input ("Email address", "Phone number")
 - **Instructions**: Verb-first, explain why information is needed
 - **Placeholder**: Use sparingly, only for standard inputs like "name@example.com"
-- **Helper text**: Static, on-demand, or automatic based on importance
+- **Helper text**: Omit when the label and control are self-explanatory; use only for non-obvious constraints, format rules, or consequences (static, on-demand, or automatic based on importance)
 
 ### Notifications
 - **Purpose**: Deliver timely, valuable information
@@ -257,6 +263,7 @@ Edit UX text in four phases:
 
 ### Phase 2: Concise
 - Remove unnecessary words
+- Cut helper text or explanations that repeat what buttons, labels, or layout already make clear
 - Combine redundant information
 - Ensure every word earns its space
 - Front-load important concepts
@@ -397,6 +404,7 @@ Use these research-backed metrics to create effective UX text.
 - Hidden instructions or explanations
 - System-oriented language vs. user language
 - Too many words (not concise enough)
+- Redundant helper text or explanations for self-evident buttons and controls
 - Robotic, corporate tone
 - Relying on color alone for meaning
 - Writing inaccessible link text ("Click here")

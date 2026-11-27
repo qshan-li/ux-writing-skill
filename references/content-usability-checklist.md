@@ -14,6 +14,11 @@ Use this checklist to evaluate UX text quality. Rate each criterion 0-10.
 - Efficient phrasing
 - No redundancy
 
+**Restraint — no redundant UI explanations**
+- Omit helper text when buttons, headings, or controls are self-explanatory
+- Let layout, hierarchy, icons, and interaction guide users
+- Keep screen space focused on core tasks rather than explanatory copy
+
 **40-60 characters per line**
 - Optimal line length for readability
 - Breaks appropriately for scanning
